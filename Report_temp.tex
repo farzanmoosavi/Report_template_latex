@@ -83,14 +83,6 @@
 
 % Acronyms
 \usepackage{acronym}
-% % Acronym list
-
-% creat your acronym like this
-% \newacronym{dsg}{DSG}{Deep Space Gateway}
-% then insert this before end{document}
-% \printglossary[title={Acronym},type=\acronymtype,nonumberlist]
-
-
 
 % Set line spacing
 \usepackage{setspace}
@@ -129,27 +121,13 @@
 \renewcommand{\listtablename}{List of Tables}
 
 \setcounter{tocdepth}{1}
-%\setlength{\parskip}{1em}
-%\setlength{\fboxsep}{0pt}
 
-
-
-
-%\voffset = 15pt
-%\headsep = 25pt
-
-%%%%% main file
 \begin{document}
 \LARGE
 %%%%% First page
 
 \thispagestyle{empty}
 \begin{centering}
-
- %\begin{figure}    
-  %   \centering
-   %  {\includegraphics[width=0.5\textwidth]{Team_Logo1}}
- %\end{figure}
 
   {\color{white}AIAA 2018-2019 Undergraduate Space System Design Competition}
   \begin{center}
@@ -213,79 +191,6 @@
 \addcontentsline{toc}{chapter}{Acronyms}
 \begin{acronym}
 
-  \acro{ADCS}{Attitude Determination and Control System}
-  \acro{AIAA}{American Institute of Aeronautics \\ and Astronautics}
-  \acro{ATA}{Annular Tank Arrangement}
-  \acro{AMPS}{Ariana Main Propulsion System}
-  \acro{BEAM}{Bigelow Expanding Activity Module}
-  \acro{BFR}{Big Falcon Rocket}
-  \acro{BOL}{Beginning of Life}
-  \acro{bps}{bits per second}
-  \acro{BWG}{Beam waveguide antenna}
-  \acro{CAD}{Computer Aided Design}
-  \acro{CDH}{Command and Data Handling}
-  \acro{CFRC}{Carbon Fiber Reinforced Carbon}
-  \acro{CM}{Crew Member}
-  \acro{CMG}{Control Moment Gyro}
-  \acro{ConOps}{Concept of Operation}
-  \acro{DRA}{DSG Robotic Arm}
-  \acro{DSG}{Deep Space Gateway}
-  \acro{DSN}{Deep Space Network}
-  \acro{ECLSS}{Environmental Control and \\  Life Support System}
-  \acro{EIRP}{Equivalent Isotropically Radiated Power}
-  \acro{EOL}{End of Life}
-  \acro{EPS}{Electrical Power System}
-  \acro{ESA}{European Space Agency}
-  \acro{EVA}{Extra Vehicular Activity}
-  \acro{FEM}{Finite Element Method}
-  \acro{FoV}{Field of View} 
-  \acro{GNC}{Guidance, Navigation and Control}
-  \acro{HGA}{High Gain Antenna}
-  \acro{HSRV}{Hercules Single-Stage Reusable Vehicle}
-  \acro{IMU}{Inertial Mesearment Unit}
-  \acro{I-MARS}{Intellingent Multi surface Access \\ Reusable Surface}
-  \acro{ISS}{International Space Station}
-  \acro{JAXA}{Japan Aerospace Exploration Agancy}
-  \acro{LaU}{Loading and Unloading}
-  \acro{LC}{Life Cycle}
-  \acro{LEO}{Low Earth Orbit}
-  \acro{LGA}{Low Gain Antenna}
-  \acro{LiDAR}{Light Detection And Ranging}
-  \acro{LLO}{Low Lunar Orbit}
-  \acro{LOC}{Loss of Crew}
-  \acro{LOLA}{Lunar Orbiter Laser Altemeter}
-  \acro{LOX}{Liquid Oxygen}
-  \acro{MLI}{Multi-Layer Insulation}
-  \acro{MMRTG}{Multi Mission Radioisotope \\ Thermoelectric Generator}
-  \acro{MOD}{Meteoroid and Orbital Debris}
-  \acro{NRHO}{Near Rectilinear Halo Orbit}
-  \acro{OBC}{Onboard Computer}
-  \acro{ODCS}{Orbit Determination and Control System}
-  \acro{PPE}{Power and Propulsion Element}
-  \acro{PLF}{Payload Fairing}
-  \acro{PLM}{payload Module}
-  \acro{PM}{Propulsion Module}
-  \acro{PSR}{Premanently Shaded Region}
-  \acro{RFC}{Regenerative Fuel Cells}
-  \acro{RFP}{Request for Proposal}
-  \acro{RTG}{Radioisotope Thermoelectric Generator}
-  \acro{RWA}{Reaction Wheel Control}
-  \acro{SC}{Spacecraft}
-  \acro{SDST}{Small Deep Space Transponder}
-  \acro{SLS}{Space Launch System}
-  \acro{SM}{Service Moduel}
-  \acro{SOP}{State of Practice}
-  \acro{SSPA}{Solid State Power Amplifier}
-  \acro{SSR}{Solid State Recorder}
-  \acro{STA}{Separated Tank Arrangement}
-  \acro{TCS}{Thermal Control System}
-  \acro{TLI}{Tans-Lunar Injection}
-  \acro{TOF}{Time-of-Flight}
-  \acro{TRL}{Technology Readiness Level}
-  \acro{UN}{United Nation}
-  \acro{NASA}{National Aeronautics and Space Administration}
-  \acro{NA}{Not Available}
-  \\\\
 \end{acronym}
 
 \newenvironment{absolutelynopagebreak}
@@ -299,11 +204,7 @@
 
 \chapter*{Acknowledgments}
 \doublespacing
-The Shadx team like to thank people who helped us in completing this report. This work could not be done without their continuous unsparing supports.
 
-Firstly Shadx team would like to thank, Dr.Nima Assadian for his technical advice on our ideas to develop into a complete concept. 
-We would also like to extend our gratitude to Ali Rasoulzadeh and Ghasem Heydari for their help in the system integration and simulations. 
-Also an exceptional thank to Kiana Ghezelbash for her remarkable contribution in propulsion and science of this report.
 \end{absolutelynopagebreak}
 \onecolumn
 \clearpage
@@ -426,35 +327,10 @@ Also an exceptional thank to Kiana Ghezelbash for her remarkable contribution in
 
 \singlespacing
 
-% % insert image
-% \begin{figure}[hbtp]    
-%     \centering
-%     \captionsetup{justification=centering}
-%     {\includegraphics[width = 3cm , height = 4cm]{file adress}}
-%     \caption{type caption}
-%     \label{fig: link} for link
-% \end{figure}
 
-
-% % insert table
-% see https://www.tablesgenerator.com/ 
-  
-
-% % insert equation
-% \[
-% type eq.   
-% \]
-
-\singlespacing
-% % References
-%\bibliography{./chapters/power/reference}
-\bibliography{./chapters/history/reference,./chapters/requirements_definition/reference,./chapters/executive_summary/reference,./chapters/fact_sheet/reference,./chapters/mission_overview/reference,./chapters/science/reference,./chapters/configuration/reference,./chapters/trajectory/reference,./chapters/propulsion/reference,./chapters/control/reference,./chapters/life_support/reference,./chapters/thermal/reference,./chapters/power/reference,./chapters/structure/reference,./chapters/communication/reference,./chapters/cost/reference,./chapters/risk_assesment/reference}
-%\bibliography{./chapters/history/reference,./chapters/requirements_definition/reference,./chapters/executive_summary/reference,./chapters/science/reference,./chapters/fact_sheet/reference,./chapters/mission_overview/reference,./chapters/configuration/reference,./chapters/trajectory/reference,./chapters/propulsion/reference,./chapters/control/reference,./chapters/life_support/reference,./chapters/thermal/reference,./chapters/power/reference,./chapters/structure/reference,./chapters/communication/reference,./chapters/cdh/reference,./chapters/cost/reference,./chapters/risk_assesment/re0ference,./chapters/schedule/reference,./chapters/summary_table/reference}
-%\bibliography{./chapters/history/reference,./chapters/requirements_definition/reference,./chapters/executive_summary/reference,./chapters/science/reference,./chapters/fact_sheet/reference,./chapters/mission_overview/reference,./chapters/configuration/reference,./chapters/trajectory/reference,./chapters/propulsion/reference,./chapters/control/reference,./chapters/life_support/reference,./chapters/thermal/reference,./chapters/power/reference,./chapters/structure/reference,./chapters/communication/reference,./chapters/cdh/reference,./chapters/cost/reference,./chapters/risk_assesment/reference}
-%\bibliography{./chapters/history/reference,./chapters/requirements_definition/reference,./chapters/executive_summary/reference,./chapters/science/reference,./chapters/fact_sheet/reference,./chapters/mission_overview/reference,./chapters/configuration/reference,./chapters/trajectory/reference,./chapters/propulsion/reference,./chapters/control/reference,./chapters/life_support/reference,./chapters/thermal/reference,./chapters/power/reference,./chapters/structure/reference,./chapters/communication/reference,./chapters/cost/reference}
+\bibliography{%file address}
 
 \bibliographystyle{IEEEtran}
-% \thispagestyle{empty}
 
 \addcontentsline{toc}{chapter}{References}
 \end{document}
